@@ -5,11 +5,15 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
   <link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
+  <script type="text/javascript" src="lib/js/bootstrap-modal.js" ></script>
 
   <script type="text/javascript" src="functions.js"></script>
 
   <title>Project: Website for education nonprofit</title>
+<script>
+$('#myModal').modal(options)
 
+</script>
 </header>
 <body>
 <div class="container">
@@ -96,7 +100,22 @@
 
 
   <div class="row container">
-    <button class="btn btn-primary">Apply</button> <button class="btn">Refer a Friend</button>
+    <a class="btn btn-primary">Apply</a> 
+
+    <a class="btn" data-toggle="modal" href="#myModal">Refer a Friend</a>
+    <div class="modal hide" id="myModal">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">×</button>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>
+</div>
   </div>
 </div>
 </div>
