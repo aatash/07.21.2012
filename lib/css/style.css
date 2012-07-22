@@ -2,64 +2,20 @@ body {
 	background-color: #FFFFCC;
 }
 
-#body-container {
-
-}
 
 #header {
 	margin:auto;
-	font-size:30px;
 }
 
-#logo h1 {
+.logo h1 {
 	margin-top:15px;
 	margin-bottom:15px;
 }
 
-#logo h2 {
-	margin:0px;
-	margin-left:12px	;
-}
-
-#navbar {
+.navbar {
+	margin-top:0px;
 	color:white;
 	background-color: #00ADA7;
-}
-
-#login {
-	color:white;
-	background-color:#666666;
-}
-
-#navbar p, #login p{
-	padding:0;
-	margin:0;
-}
-
-#navbar .span-20 {
-	margin-right:0px;
-}
-
-.item {
-	padding: 6px;
-	padding-left:12px;
-}
-.menu{
-    width: 100%;
-    padding: 12px;
-    padding-left:12px;
-	 }
-
-.menu ul{
-    margin:0px;
-   	padding:0px;
-    float: left;}
-
-.menu ul li{
-	padding-right: 16px;
-	border-right: 4px solid #FFFFFF;
-    display: inline;
-
 }
 
 #page {
