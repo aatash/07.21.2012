@@ -181,7 +181,6 @@ legend.form-title {
 	margin-top:10px;
 }
 
-<<<<<<< HEAD
 .main {
 	padding:20px;
 }
@@ -219,7 +218,7 @@ legend.form-title {
 
 .pagination {
 	margin-left: 20px;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 0px;
 }
 
@@ -237,6 +236,8 @@ div.tagsinput div { display:block; float: left; }
 	font-size: 20px
 }
 
+
+
 #front #tags_tagsinput {
 	width: 60px
 }
@@ -244,5 +245,12 @@ div.tagsinput div { display:block; float: left; }
 #front #tags_tag {
 	font-size: 20px;
 	width:100px;
+}
+
+.front .btn {
+	height:52px;
+	width:62px;
+	margin-top:0px;
+	font-size: 20px;
 }
 
