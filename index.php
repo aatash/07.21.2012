@@ -1,7 +1,3 @@
-<?php
-require_once('function.php');
-?>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 
@@ -62,7 +58,7 @@ require_once('function.php');
 <div class="container">
 <div id="header">
   <div class="logo"><a href="index.php">
-    <h1> Project Wing </h1>
+    <h1> grapevine </h1>
   </a></div>
   <div class="navbar">
       <div class="navbar-inner">
@@ -84,9 +80,7 @@ require_once('function.php');
           <ul class="nav pull-right">
              
              <li>
-			 <? if(isset($_SESSION['id'])) {  ?> <a href="./login2.php">Logout</a> <? } else { ?>
-
-                <a href="./login.php">Login</a> <? } ?>
+                <a href="./login.php">Login</a>
               </li>
               <li>
                 <a href="./signup.php">Signup</a>
@@ -146,7 +140,7 @@ require_once('function.php');
   <footer class="footer">
     <div class="container">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Built by the Project Wing Team</p>
+        <p>Built by the grapevine Team</p>
     </div>
   </footer>
 </html>

@@ -25,7 +25,7 @@
 <div class="container">
 <div id="header">
 	<div class="logo"><a href="index.php">
-		<h1> Project Wing </h1>
+		<h1> grapevine </h1>
 	</a></div>
 	<div class="navbar">
       <div class="navbar-inner">
@@ -123,6 +123,42 @@ foreach($listings as $listing) {
 
 <div class="listing span8">
 	<div class="row">
+		<div class="title span7"><a href="project-detail2.php"></a></div>
+		<div class="span1 last">
+			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>		</div>
+	</div>
+	<div class="row">
+		<div class="collaborators span8 last">
+			<span class="italic">
+			Dexter Zhuang, Edward Wang, Aatash Parikh
+		</span>
+	</div>
+	</div>
+	<div class="row">
+		<div class="description span8 last">Design a marketing campaign to publicize new San Jose Community Center
+		</div>
+	</div>
+	<div class="row">
+		<div class="types span8 last">
+			<span class="bold">Type: </span>
+			<a href="">Social Good</a><a href="">Marketing</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="skills span8 last">
+			<span class="bold">Help Needed With: </span>
+			<a href="">Graphic Design</a><a href="">Marketing</a></div>
+	</div>
+	<div class="row">
+		<div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
+		<a id="readmore" class="span8 last" href="project-detail.php">Learn more...</a>
+	</div>
+
+</div>
+
+
+<div class="listing span8">
+	<div class="row">
 		<div class="title span7"><a href="project-detail.php">Develop a web site to connect people working on projects with people who want to help.</a></div>
 		<div class="span1 last">
 			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>		</div>
@@ -179,7 +215,7 @@ foreach($listings as $listing) {
   <footer class="footer">
   	<div class="container">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Built by the Project Wing Team</p>
+        <p>Built by the grapevine Team</p>
     </div>
   </footer>
 </html>

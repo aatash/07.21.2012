@@ -7,7 +7,7 @@
 
 	<script type="text/javascript" src="functions.js"></script>
 
-	<title>Project Wing</title>
+	<title>grapevine</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 <div class="container">
 	
 <div class="logo">
-		<h1> Project Wing </h1>
+		<h1> grapevine </h1>
 	</div>
 	<div class="navbar">
       <div class="navbar-inner">

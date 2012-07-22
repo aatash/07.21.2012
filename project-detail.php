@@ -22,7 +22,7 @@ $('#myModal').modal(options)
 <div class="container">
 <div id="header">
   <div class="logo"><a href="index.php">
-    <h1> Project Wing </h1>
+    <h1> grapevine </h1>
   </a></div>
   <div class="navbar">
       <div class="navbar-inner">
@@ -178,7 +178,7 @@ $('#myModal').modal(options)
   <footer class="footer">
     <div class="container">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Built by the Project Wing Team</p>
+        <p>Built by the grapevine Team</p>
     </div>
   </footer>
 </html>
