@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script type="text/javascript" src="lib/js/jquery.tagsinput.js"></script>
   <link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
@@ -13,10 +13,10 @@
   <link rel="stylesheet" type="text/css" href="http://xoxco.com/x/tagsinput/jquery-autocomplete/jquery.autocomplete.css" />
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js">
   </script>  
-  <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/start/jquery-ui.css" />
-	<script type="text/javascript" src="functions.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://ajax.googl
+  <script type="text/javascript" src="functions.js"></script>
 
-	<title>Create a Project</title>
+  <title>Create a project</title>
 <script type="text/javascript">
     
     function onAddTag(tag) {
@@ -53,13 +53,15 @@
     });
   
   </script>
+
 </header>
 <body>
 <div class="container">
-	<div class="logo">
-		<h1> Project Wing </h1>
-	</div>
-	<div class="navbar">
+<div id="header">
+  <div class="logo"><a href="index.html">
+    <h1> Project Wing </h1>
+  </a></div>
+  <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
           <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -69,35 +71,41 @@
           </button>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active">
-                <a href="./index.html">Browse</a>
-              </li>
               <li class="">
-                <a href="./scaffolding.html">Create</a>
+                <a href="./listings.html">Browse</a>
+              </li>
+              <li class="active" >
+                <a href="">Create</a>
               </li>
           </ul>
           <ul class="nav pull-right">
              
              <li>
-                <a href="./scaffolding.html">Login</a>
+                <a href="./login.html">Login</a>
               </li>
               <li>
-                <a href="./scaffolding.html">Signup</a>
+                <a href="./signup.html">Signup</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+</div>
 
 
+<div id="content-sidebar" class="span12 container">
+<div id="content" class="span8">
+
+<div class="row">
+<div class="listing span8">
 <div id="page">
 
   <div class="row">
-    <div class="span8 offset2">
+    <div class="span8">
        <form class="form-horizontal" action="createproject.php" method="post">
         <fieldset>
-          <legend>Create a Project</legend>
+          <legend class="form-title">Create a Project</legend>
 
           <div class="control-group">
             <label class="control-label" for="name">Project Title</label>
@@ -139,7 +147,7 @@
               <textarea class="input-xlarge" id="description" rows="3" name="description"></textarea>
             </div>
           </div>
-          <div class="form-actions">
+          <div class="controls">
             <button type="submit" class="btn btn-primary">Save changes</button>
             <button class="btn">Cancel</button>
           </div>
@@ -150,11 +158,20 @@
 
 </div>
 
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
 </body>
 
   <footer class="footer">
-  	<div class="container">
-  		<hr>
+    <div class="container">
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>Built by the Project Wing Team</p>
     </div>

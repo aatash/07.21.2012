@@ -27,7 +27,7 @@
           </button>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active">
+              <li class="">
                 <a href="./listings.html">Browse</a>
               </li>
               <li class="">
@@ -36,7 +36,7 @@
           </ul>
           <ul class="nav pull-right">
              
-             <li>
+             <li class="active" >
                 <a href="./scaffolding.html">Login</a>
               </li>
               <li>
@@ -56,42 +56,17 @@
 <div class="row">
 <div class="listing span8">
   <div id="page">
-  <form class="form-horizontal" action="register.php" method="post">
-  <fieldset>
-
-    <div class="span4">
-          <legend>Sign up</legend>
-      <div class="control-group">
-        <label class="control-label" for="input01">Username</label>
-          <div class="controls">
-            <input type="text" class="input-xlarge" id="input01" name="username">
-          </div>
-      </div>
-      <div class="control-group">
-        <label class="control-label" for="input01">Password</label>
-          <div class="controls">
-            <input type="password" class="input-xlarge" id="input01" name="password">
-          </div>
-      </div>
-      <div class="control-group">
-        <label class="control-label" for="input01">Full name</label>
-          <div class="controls">
-            <input type="text" class="input-xlarge" id="input01" name="realname">
-          </div>
-      </div>
-      <div class="control-group">
-        <label class="control-label" for="input01">About</label>
-          <div class="controls">
-            <textarea class="input-xlarge" id="input01" name="about"></textarea>
-          </div>
-      </div>
-
-      <button type="submit" class="btn btn-primary">Register</button>
-      <button class="btn">Cancel</button>
-    </div>
-  </fieldset>
+  <form class=" form-horizontal" action="login.php" method="post">
+  <input type="text" class="input-small" placeholder="Username" name="username">
+  <input type="password" class="input-small" placeholder="Password" name="password">
+  <br />
+  <br />
+  <label class="checkbox">
+    <input type="checkbox"> Remember me
+  </label>
+  <button type="submit" class="btn">Sign in</button>
 </form>
-</div>
+  </div>
 </div>
 </div>
 
