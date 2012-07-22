@@ -10,8 +10,9 @@ DB::insert('projects', array(
 	'projectdesc' => $_POST['description'],
 	'datecreated' => $now
 	));
-	echo "inserted";
 	header("Location: http://www.studyfeed.com/projectwing/listings.php"); 
+
+	echo "inserted";
 	
 /*
 
