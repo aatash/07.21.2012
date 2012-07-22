@@ -12,6 +12,7 @@ body {
 	margin-top:0px;
 	color:white;
 	background-color: #00ADA7;
+	margin-bottom:0;
 }
 
 #page {
@@ -39,6 +40,9 @@ body {
 	font-weight:bold;
 }
 
+.listing .star {
+	text-align:right;
+}
 .listing .collaborators {
 	padding-bottom:4px;
 	margin-bottom:4px;
