@@ -1,6 +1,6 @@
 <?php
 	require_once('function.php');
-	$listings = DB::query("SELECT * from users WHERE 1");
+	$listings = DB::query("SELECT * from projects WHERE 1"); ?>
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 
@@ -63,6 +63,7 @@
 
 <?php
 foreach($listings as $listing) {
+
 ?>
 <div class="row">
 <div class="listing span8">
@@ -84,13 +85,14 @@ foreach($listings as $listing) {
 	<div class="row">
 		<div class="types span8 last">
 			<span class="bold">Type: </span>
-			<? $x = explode(',',$listing['projecttype']); foreach($x as $xs) { ?><a href=""><?=$xs;?></a>
+			<? $x = explode(',',$listing['projecttype']); foreach($x as $xs) { ?><a href=""><?=$xs;?></a> <? } ?>
 		</div>
 	</div>
 	<div class="row">
 		<div class="skills span8 last">
 			<span class="bold">Help Needed With: </span>
-			<? $x = explode(',',$listing['skills']); foreach($x as $xs) { ?><a href=""><?=$xs;?></a>
+			<? $x = explode(',',$listing['skills']); foreach($x as $xs) { ?><a href=""><?=$xs;?></a><? } ?>
+		</div>
 	</div>
 	<div class="row">
 		<div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
@@ -98,7 +100,7 @@ foreach($listings as $listing) {
 	</div>
 </div>
 </div>
-
+<? } ?>
 
 
 <div class="row">
