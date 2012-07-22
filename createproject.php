@@ -121,7 +121,7 @@
 <body>
 <div class="container">
 <div id="header">
-  <div class="logo"><a href="index.html">
+  <div class="logo"><a href="index.php">
     <h1> Project Wing </h1>
   </a></div>
   <div class="navbar">
@@ -135,7 +135,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="./listings.html">Browse</a>
+                <a href="./listings.php">Browse</a>
               </li>
               <li class="active" >
                 <a href="">Create</a>
@@ -144,10 +144,10 @@
           <ul class="nav pull-right">
              
              <li>
-                <a href="./login.html">Login</a>
+                <a href="./login.php">Login</a>
               </li>
               <li>
-                <a href="./signup.html">Signup</a>
+                <a href="./signup.php">Signup</a>
               </li>
             </ul>
           </div>

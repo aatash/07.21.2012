@@ -28,19 +28,19 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active">
-                <a href="./index.html">Browse</a>
+                <a href="./index.php">Browse</a>
               </li>
               <li class="">
-                <a href="./scaffolding.html">Create</a>
+                <a href="./create.php">Create</a>
               </li>
           </ul>
           <ul class="nav pull-right">
              
              <li>
-                <a href="./scaffolding.html">Login</a>
+                <a href="./login.php">Login</a>
               </li>
               <li>
-                <a href="./scaffolding.html">Signup</a>
+                <a href="./signup.php">Signup</a>
               </li>
             </ul>
           </div>
@@ -67,7 +67,7 @@
 	</div>
 	<div class="timeline"><span class="bold">Timeline: </span>May 2012-July 2012
 	</div>
-	<a id="readmore" href="detail.html">Learn more...</a>
+	<a id="readmore" href="detail.php">Learn more...</a>
 </div>
 
 </div>
