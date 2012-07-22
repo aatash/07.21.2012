@@ -1,20 +1,23 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
-<html>
-<header>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-	<title>Project: Website for education nonprofit</title>
-	<link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
-	<link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
+  <link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
+
+  <script type="text/javascript" src="functions.js"></script>
+
+  <title>Project: Website for education nonprofit</title>
 
 </header>
 <body>
 <div class="container">
-	<div class="logo">
-		<h1> Project Wing </h1>
-	</div>
-	<div class="navbar">
+<div id="header">
+  <div class="logo"><a href="index.html">
+    <h1> Project Wing </h1>
+  </a></div>
+  <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
           <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -25,7 +28,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active">
-                <a href="./index.html">Browse</a>
+                <a href="./listings.html">Browse</a>
               </li>
               <li class="">
                 <a href="./scaffolding.html">Create</a>
@@ -44,35 +47,69 @@
         </div>
       </div>
     </div>
+</div>
 
-	<div id="page">
+
+<div id="content-sidebar" class="span12 container">
+<div id="content" class="span8">
+
 <div class="row">
-     <div class="span11 first">
-           <h2> Website for education nonprofit</h2>
+<div class="listing span8">
+  <div id="page">
+  <form class="form-horizontal" action="register.php" method="post">
+  <fieldset>
 
-	     <h3> Created by: <a href="">Aatash Parikh </a> </h3>
-         <h3> Collaborators </h3>
-  <h3> Date created </h3>
-  <h3> Last updated </h3>
-  <h3> Skills </h3>
-  <h3> Description </h3>
-  <h3> Public/private </h3>
-  <h3> Files </h3>
+    <div class="span4">
+          <legend>Sign up</legend>
+      <div class="control-group">
+        <label class="control-label" for="input01">Username</label>
+          <div class="controls">
+            <input type="text" class="input-xlarge" id="input01" name="username">
+          </div>
       </div>
-    <div class="span1 last">
-      <img id="change-star" class="star" onclick="switchstar()" src="lib/img/star-gray.gif" width="30px">
+      <div class="control-group">
+        <label class="control-label" for="input01">Password</label>
+          <div class="controls">
+            <input type="password" class="input-xlarge" id="input01" name="password">
+          </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01">Full name</label>
+          <div class="controls">
+            <input type="text" class="input-xlarge" id="input01" name="realname">
+          </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01">About</label>
+          <div class="controls">
+            <textarea class="input-xlarge" id="input01" name="about"></textarea>
+          </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Register</button>
+      <button class="btn">Cancel</button>
     </div>
+  </fieldset>
+</form>
+</div>
+</div>
+</div>
 
 
-	</div>
+
+</div>
+
+</div>
 
 </div>
 </body>
-<footer class="footer">
+
+  <footer class="footer">
     <div class="container">
-      <hr>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>Built by the Project Wing Team</p>
     </div>
   </footer>
 </html>
+
+

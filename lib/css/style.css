@@ -7,8 +7,26 @@ body a {
 	color: #00ADA7;
 }
 
+#header h1{
+	color:black;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+.title {
+	line-height: 120%;
+	margin-bottom:10px;
+}
+
 .title a {
 	color:black;
+}
+
+.form-horizontal .title {
+	line-height: 100%;
+	margin-bottom: 10px;
 }
 
 #content-sidebar {
@@ -70,13 +88,18 @@ body a {
 .listing .collaborators {
 	padding-bottom:4px;
 	margin-bottom:4px;
-	border-bottom: 1px solid gray;
-}
+/*	border-bottom: 1px solid gray;
+*/}
 
 .listing .description {
-	margin-bottom:10px;
+	margin-bottom:15px;
 	border-bottom: 1px black;
 }
+
+.listing .btn {
+	margin-top: 10px;
+}
+
 
 
 #sidebar .listing {
@@ -95,7 +118,7 @@ body a {
 
 .listing .types {
 	margin-top:5px;
-	margin-bottom:10px;
+	margin-bottom:0px;
 }
 
 .listing .skills a, #sidebar .listing .skills a {
@@ -109,6 +132,10 @@ body a {
 
 .listing .skills {
 	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.listing .timeline {
 	margin-bottom:10px;
 }
 
@@ -130,6 +157,10 @@ body a {
 
 .bold {
 	font-weight: bold;
+}
+
+.italic {
+	font-style:italic;
 }
 
 .footer {
