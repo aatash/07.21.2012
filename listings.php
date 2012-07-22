@@ -9,7 +9,13 @@
 	<link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
 	<link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
 
-	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript">
+
+	function makeGold(img) {
+		img.src = "lib/img/star-gold.gif"
+	}
+
+	</script>
 
 	<title>Project Listings</title>
 
@@ -82,7 +88,7 @@ foreach($listings as $listing) {
 	<div class="row">
 		<div class="title span7"><a href=""><?=$listing['projectname'];?></a></div>
 		<div class="span1 last">
-			<img id="change-star" class="star" onclick="switchstar()" src="lib/img/star-gray.gif" width=30px>
+			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>
 		</div>
 	</div>
 	<div class="row">
@@ -120,7 +126,7 @@ foreach($listings as $listing) {
 	<div class="row">
 		<div class="title span7"><a href="project-detail.html">Develop a web site to connect people working on projects with people who want to help.</a></div>
 		<div class="span1 last">
-			<img id="change-star" class="star" onclick="switchstar()" src="lib/img/star-gray.gif" width=30px>
+			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>
 		</div>
 	</div>
 	<div class="row">
@@ -157,7 +163,7 @@ foreach($listings as $listing) {
 	<div class="row">
 		<div class="title span7"><a href="">Mini-documentary production for shop grand-opening</a></div>
 		<div class="span1 last">
-			<img id="change-star" class="star" onclick="switchstar()" src="lib/img/star-gray.gif" width=30px>
+			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>
 		</div>
 	</div>
 	<div class="row">
