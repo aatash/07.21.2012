@@ -46,17 +46,52 @@ body {
 }
 
 .listing {
-	margin-left:340px;
+	padding:15px;
+	background-color: white;
+	border-bottom: solid 0px gray;
+	border-right: solid 0px gray;
+	border-left: solid 1px #E5E5E5;
+	border-top: solid 1px #E5E5E5;
+	border-radius: 10px;
+	-moz-box-shadow:    2px 2px 0px 2px #ccc;
+  	-webkit-box-shadow: 2px 2px 0px 2px #ccc;
+  	box-shadow:         2px 2px 0px 2px #ccc;
+  	margin-bottom: 10px;
+
 }
 
 .listing .title {
 	font-size:20px;
-	font-style:;
+	font-weight:bold;
 }
 
+.listing .collaborators {
+	padding-bottom:4px;
+	margin-bottom:4px;
+	border-bottom: 1px solid gray;
+}
 
+.listing .description {
+	margin-bottom:10px;
+	border-bottom: 1px black;
+}
 
+.listing .tags a {
+	margin-right:5px;
+	background-color: #C24704;
+	padding:5px;
+	text-decoration: none;
+	color:white;
+}
 
+.listing .tags {
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.bold {
+	font-weight: bold;
+}
 
 
 
