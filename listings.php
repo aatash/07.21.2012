@@ -1,6 +1,6 @@
 <?php
 	require_once('function.php');
-	$listings = DB::query("SELECT * from projects WHERE 1"); ?>
+	$listings = DB::query("SELECT * from projects WHERE 1 ORDER BY id DESC"); ?>
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 
