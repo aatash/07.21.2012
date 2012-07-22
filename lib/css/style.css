@@ -3,6 +3,24 @@ body {
 	background-image:url("../img/square_bg.png");
 }
 
+body a {
+	color: #00ADA7;
+}
+
+.title a {
+	color:black;
+}
+
+#content-sidebar {
+	background-color:#EDEDED;
+}
+
+#content {
+	background-color:#EDEDED;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
 .logo h1 {
 	margin-top:15px;
 	margin-bottom:15px;
@@ -17,6 +35,12 @@ body {
 
 #page {
 	background: #FFFFFF;
+}
+
+#sidebar {
+	margin-left:40px;
+	margin-top:30px;
+	padding:15px;
 }
 
 
@@ -54,7 +78,14 @@ body {
 	border-bottom: 1px black;
 }
 
-.listing .tags a {
+
+#sidebar .listing {
+	background-color: gray;
+	color:white;
+}
+
+.listing .types a, #sidebar .listing .types a {
+	line-height:220%;
 	margin-right:5px;
 	background-color: #C24704;
 	padding:5px;
@@ -62,9 +93,39 @@ body {
 	color:white;
 }
 
-.listing .tags {
+.listing .types {
 	margin-top:5px;
 	margin-bottom:10px;
+}
+
+.listing .skills a, #sidebar .listing .skills a {
+	line-height:220%;
+	margin-right:5px;
+	background-color: #D9CC3C;
+	padding:5px;
+	text-decoration: none;
+	color:black;
+}
+
+.listing .skills {
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+
+#sidebar .title {
+	margin-bottom:10px;
+}
+
+#sidebar .listing a {
+	color:white;
+}
+
+#sidebar .listing h3 {
+	border-top:solid white 1px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .bold {

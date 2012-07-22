@@ -1,22 +1,23 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
+
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
-		<link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
+  <link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
 
-	<script type="text/javascript" src="functions.js"></script>
+  <script type="text/javascript" src="functions.js"></script>
 
-	<title>Project Wing</title>
-</head>
+  <title>Project: Website for education nonprofit</title>
 
+</header>
 <body>
-
 <div class="container">
-<div class="logo">
-		<h1> Project Wing </h1>
-	</div>
-	<div class="navbar">
+<div id="header">
+  <div class="logo">
+    <h1> Project Wing </h1>
+  </div>
+  <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
           <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -46,27 +47,85 @@
         </div>
       </div>
     </div>
+</div>
 
 
-<div class="listing span9">
-	<div class="title span8">Project Name</div>
-	<div class="span1 last">
-		<img id="change-star" class="star" onclick="switchstar()" src="images/star-gray.gif" width="30px">
-	</div>
-	<div class="collaborators">Dexter Zhuang, Edward Wang, Aatash Parikh</div>
-	<div class="description">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-	</div>
-	<div class="tags">
-		<a href="">Social Good</a>
-		<a href="">Non-profit</a>
-	</div>
-	<div class="skills"><span class="bold">Help Needed With: </span>Web Design, Marketing</div>
-	<div class="timeline"><span class="bold">Timeline: </span>May 2012-July 2012</div>
-	<a id="readmore" href="detail.html">Learn more...</a>
+<div id="content-sidebar" class="span12 container">
+<div id="content" class="span8">
+
+<div class="row">
+<div class="listing span8">
+  <div class="row">
+    <div class="title span7"><a href="">Project Name</a></div>
+    <div class="span1 last">
+      <img id="change-star" class="star" onclick="switchstar()" src="images/star-gray.gif" width=30px>
+    </div>
+  </div>
+  <div class="row">
+    <div class="collaborators span8 last">Dexter Zhuang, Edward Wang, Aatash Parikh</div>
+  </div>
+  <div class="row">
+    <div class="description span8 last">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    </div>
+  </div>
+  <div class="row">
+    <div class="types span8 last">
+      <a href="">Social Good</a><a href="">Non-profit</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="skills span8 last"><span class="bold">Help Needed With: </span> <span class="skills"><a href="">Web Design</a><a href="">Marketing</a></div>
+  </div>
+  <div class="row">
+    <div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
+  </div>
+</div>
+</div>
+
+
+
+</div>
+
+<div id="sidebar" class="span3">
+  <div class="listing">
+    <div class="title">Similar Projects</div>
+
+    <h3><a href="">Website development for animal welfare non-profit</a></h3>
+    <div>
+      <span class="types"><a href="">Social Good</a><a href="">Animals</a><br /><a href="">Non-profit</a><a href="">Volunteer</a><br /></span>
+      <span class="skills"><a href="">Web Dev</a><a href="">Graphic Design</a></span>
+    </div>
+
+    <h3><a href="">Mini-documentary production for shop grand-opening</a></h3>
+    <div>
+      <span class="types"><a href="">Film/Video</a><a href="">Paid</a><br /></span>
+      <span class="skills"><a href="">Video Production</a><br /><a href="">Video Editing</a></span>
+    </div>
+
+
+    <h3>Project 3</h3>
+    <div class="types">
+      <a href="">Stuff</a>
+    </div>
+
+    <h3>Project 4</h3>
+    <div class="types">
+      <a href="">Stuff</a>
+    </div>
+
+  </div>
+</div>
 </div>
 
 </div>
 </body>
+
+  <footer class="footer">
+    <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Built by the Project Wing Team</p>
+    </div>
+  </footer>
 </html>
 
 
