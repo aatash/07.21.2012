@@ -9,6 +9,7 @@
 	<link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
 	<link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
 
+	<script type="text/javascript" src="functions.js"></script>
 	<script type="text/javascript">
 
 	function makeGold(img) {
@@ -88,8 +89,7 @@ foreach($listings as $listing) {
 	<div class="row">
 		<div class="title span7"><a href=""><?=$listing['projectname'];?></a></div>
 		<div class="span1 last">
-			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>
-		</div>
+			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>		</div>
 	</div>
 	<div class="row">
 		<span class="italic">
@@ -120,14 +120,11 @@ foreach($listings as $listing) {
 </div>
 <? } ?>
 
-
-<div class="row">
 <div class="listing span8">
 	<div class="row">
 		<div class="title span7"><a href="project-detail.html">Develop a web site to connect people working on projects with people who want to help.</a></div>
 		<div class="span1 last">
-			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>
-		</div>
+			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>		</div>
 	</div>
 	<div class="row">
 		<div class="collaborators span8 last">
@@ -154,40 +151,6 @@ foreach($listings as $listing) {
 	<div class="row">
 		<div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
 		<a id="readmore" class="span8 last" href="project-detail.html">Learn more...</a>
-	</div>
-</div>
-</div>
-
-<div class="row">
-<div class="listing span8">
-	<div class="row">
-		<div class="title span7"><a href="">Mini-documentary production for shop grand-opening</a></div>
-		<div class="span1 last">
-			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>
-		</div>
-	</div>
-	<div class="row">
-		<span class="italic">
-		<div class="collaborators span8 last">Tyra Kitsch (Tyra's Hoagies)</div>
-		</span>	</div>
-	<div class="row">
-		<div class="description span8 last">
-		</div>
-	</div>
-	<div class="row">
-		<div class="types span8 last">
-			<span class="bold">Type: </span>
-			<a href="">Film/Video</a><a href="">Paid</a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="skills span8 last">
-			<span class="bold">Help Needed With: </span>
-			<a href="">Video Production</a><a href="">Video Editing</a></div>
-	</div>
-	<div class="row">
-		<div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
-		<a id="readmore" class="span8 last" href="">Learn more...</a>
 	</div>
 </div>
 </div>
