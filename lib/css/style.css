@@ -66,3 +66,7 @@ body {
 .bold {
 	font-weight: bold;
 }
+
+.footer {
+	margin-top:10px;
+}
