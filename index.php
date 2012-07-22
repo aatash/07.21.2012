@@ -1,3 +1,7 @@
+<?php
+require_once('function.php');
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 
@@ -80,7 +84,9 @@
           <ul class="nav pull-right">
              
              <li>
-                <a href="./login.php">Login</a>
+			 <? if(isset($_SESSION['id'])) {  ?> <a href="./login2.php">Logout</a> <? } else { ?>
+
+                <a href="./login.php">Login</a> <? } ?>
               </li>
               <li>
                 <a href="./signup.php">Signup</a>

@@ -24,7 +24,7 @@
 <body>
 <div class="container">
 <div id="header">
-	<div class="logo"><a href="index.html">
+	<div class="logo"><a href="index.php">
 		<h1> Project Wing </h1>
 	</a></div>
 	<div class="navbar">
@@ -38,19 +38,20 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active">
-                <a href="./listings.html">Browse</a>
+                <a href="./listings.php">Browse</a>
               </li>
               <li class="">
-                <a href="./createproject.html">Create</a>
+                <a href="./create.php">Create</a>
               </li>
           </ul>
           <ul class="nav pull-right">
              
              <li>
-                <a href="./login.html">Login</a>
+			 <? if(isset($_SESSION['id'])) {  ?> <a href="./login2.php">Logout</a> <? } else { ?>
+                <a href="./login.php">Login</a> <? } ?>
               </li>
               <li>
-                <a href="./signup.html">Signup</a>
+                <a href="./signup.php">Signup</a>
               </li>
             </ul>
           </div>
@@ -87,7 +88,7 @@ foreach($listings as $listing) {
 <div class="row">
 <div class="listing span8">
 	<div class="row">
-		<div class="title span7"><a href=""><?=$listing['projectname'];?></a></div>
+		<div class="title span7"><a href="project-detail.php"><?=$listing['projectname'];?></a></div>
 		<div class="span1 last">
 			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>		</div>
 	</div>
@@ -122,7 +123,7 @@ foreach($listings as $listing) {
 
 <div class="listing span8">
 	<div class="row">
-		<div class="title span7"><a href="project-detail.html">Develop a web site to connect people working on projects with people who want to help.</a></div>
+		<div class="title span7"><a href="project-detail.php">Develop a web site to connect people working on projects with people who want to help.</a></div>
 		<div class="span1 last">
 			<img id="change-star" class="star" onclick="makeGold(this)" src="lib/img/star-gray.gif" width=30px>		</div>
 	</div>
@@ -150,7 +151,7 @@ foreach($listings as $listing) {
 	</div>
 	<div class="row">
 		<div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
-		<a id="readmore" class="span8 last" href="project-detail.html">Learn more...</a>
+		<a id="readmore" class="span8 last" href="project-detail.php">Learn more...</a>
 	</div>
 
 </div>

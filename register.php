@@ -15,7 +15,10 @@ db::insert("users", array(
 	'realname' => $realname,
 	'about' => $about
 	));
-echo "Successfully registered.";
+
+		header("Location: http://www.studyfeed.com/projectwing/login.php"); 
+
+	echo "Successfully registered.";
 
 //$test = DB::queryFirstRow("SELECT * from users WHERE 1");
 //print_r($test);
