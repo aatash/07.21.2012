@@ -2,14 +2,58 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel=StyleSheet href="lib/css/bootstrap.css" type="text/css" media=screen>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/js/jquery.tagsinput.js"></script>
   <link rel=StyleSheet href="lib/css/style.css" type="text/css" media=screen>
 
+  <script type='text/javascript' src='http://xoxco.com/x/tagsinput/jquery-autocomplete/jquery.autocomplete.min.js'>
+  </script>
+  <link rel="stylesheet" type="text/css" href="http://xoxco.com/x/tagsinput/jquery-autocomplete/jquery.autocomplete.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js">
+  </script>  
+  <link rel="stylesheet" type="text/css" href="http://ajax.googl
   <script type="text/javascript" src="functions.js"></script>
 
-  <title>Project: Website for education nonprofit</title>
+  <title>NAME OF OUR APP</title>
+<script type="text/javascript">
+    
+    function onAddTag(tag) {
+      alert("Added a tag: " + tag);
+    }
+    function onRemoveTag(tag) {
+      alert("Removed a tag: " + tag);
+    }
+    
+    function onChangeTag(input,tag) {
+      alert("Changed a tag: " + tag);
+    }
+    
+    $(function() {
 
+      $('#tags').tagsInput({
+        height:'40px',
+        width:'500px',
+        font:'40px',
+
+      });
+
+
+      $('#tags2').tagsInput({  
+        height:'100px',
+        width:'270px',
+      });
+
+
+// Uncomment this line to see the callback functions in action
+//      $('input.tags').tagsInput({onAddTag:onAddTag,onRemoveTag:onRemoveTag,onChange: onChangeTag});   
+
+// Uncomment this line to see an input with no interface for adding new tags.
+//      $('input.tags').tagsInput({interactive:false});
+    });
+  
+  </script>
 </header>
 <body>
 <div class="container">
@@ -54,51 +98,27 @@
 <div id="content" class="span8">
 
 <div class="row">
-<!-- <div class="listing span8">
-  <div id="page">
-  <form class="form-horizontal" action="register.php" method="post">
-  <fieldset>
+<div class="listing main span11">
 
-    <div class="span4">
-      <legend class="title">Sign up</legend>
-      <div class="control-group">
-            <label class="control-label" for="input01">Name*</label>
-              <div class="controls">
-                <input type="text" class="input-xlarge" id="input01" name="realname">
-              </div>
-          </div>
-      <div class="control-group">
-        <label class="control-label" for="input01">Username*</label>
-          <div class="controls">
-            <input type="text" class="input-xlarge" id="input01" name="username">
-          </div>
-      </div>
-      <div class="control-group">
-        <label class="control-label" for="input01">Password*</label>
-          <div class="controls">
-            <input type="password" class="input-xlarge" id="input01" name="password">
-          </div>
-      </div>
-      <div class="control-group">
-        <label class="control-label" for="input01">Retype Password*</label>
-          <div class="controls">
-            <input type="password" class="input-xlarge" id="input01" name="password">
-          </div>
-      </div>
-      <div class="control-group">
-        <label class="control-label" for="input01">About</label>
-          <div class="controls">
-            <textarea class="input-xlarge" id="input01" name="about"></textarea>
-          </div>
-      </div>
+<h1>Got some time and want to work on interesting stuff?</h1>
 
-      <button type="submit" class="btn btn-primary">Register</button>
-      <button class="btn">Cancel</button>
-    </div>
-  </fieldset>
-</form>
+<div class="row">
+	<div class="span4">
+		<h2> Find a project:</h2>
+	</div>
+	<div id="front" class="span6">
+	  <input name="type" id="tags" class="main" value="Social Good" />
+	</div>
 </div>
-</div> -->
+
+</div>
+
+<div id="needhalp" class="container span11">
+	<h1>Need help with your project?</h1>
+
+	<p><a href="signup.html">Sign up </a>to find talented individuals recommended by your network.</p>
+</div>
+
 </div>
 
 
