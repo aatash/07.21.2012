@@ -152,7 +152,7 @@ foreach($listings as $listing) {
 		<div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
 		<a id="readmore" class="span8 last" href="project-detail.html">Learn more...</a>
 	</div>
-</div>
+
 </div>
 
 
