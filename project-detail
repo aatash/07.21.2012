@@ -13,6 +13,7 @@
 <body>
 
 <div class="container">
+	
 <div class="logo">
 		<h1> Project Wing </h1>
 	</div>
@@ -49,19 +50,23 @@
 
 
 <div class="listing span9">
-	<div class="title span8">Project Name</div>
+	<div class="title span8">Project Name
+	</div>
 	<div class="span1 last">
 		<img id="change-star" class="star" onclick="switchstar()" src="images/star-gray.gif" width="30px">
 	</div>
-	<div class="collaborators">Dexter Zhuang, Edward Wang, Aatash Parikh</div>
+	<div class="collaborators">Dexter Zhuang, Edward Wang, Aatash Parikh
+	</div>
 	<div class="description">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
 	</div>
 	<div class="tags">
 		<a href="">Social Good</a>
 		<a href="">Non-profit</a>
 	</div>
-	<div class="skills"><span class="bold">Help Needed With: </span>Web Design, Marketing</div>
-	<div class="timeline"><span class="bold">Timeline: </span>May 2012-July 2012</div>
+	<div class="skills"><span class="bold">Help Needed With: </span>Web Design, Marketing
+	</div>
+	<div class="timeline"><span class="bold">Timeline: </span>May 2012-July 2012
+	</div>
 	<a id="readmore" href="detail.html">Learn more...</a>
 </div>
 
