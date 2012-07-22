@@ -11,6 +11,7 @@ DB::insert('projects', array(
 	'datecreated' => $now
 	));
 	echo "inserted";
+	header("Location: http://www.studyfeed.com/projectwing/listings.php"); 
 	
 /*
 
