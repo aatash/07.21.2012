@@ -1,7 +1,7 @@
 body {
 	background-color: #FFFFCC;
+	background-image:url("../img/square_bg.png");
 }
-
 
 .logo h1 {
 	margin-top:15px;
