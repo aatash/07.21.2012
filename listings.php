@@ -53,11 +53,23 @@
 </div>
 
 
+
 <div id="content-sidebar" class="span12 container">
+	<div class="pagination">
+  <ul>
+    <li><a href="#">Prev</a></li>
+    <li class="active">
+      <a href="#">1</a>
+    </li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
 <div id="content" class="span8">
 <div class="row">
 <div class="span8">
-	<p>Showing results 1-3 of 24</p>
 </div>
 </div>
 
@@ -75,7 +87,7 @@ foreach($listings as $listing) {
 	</div>
 	<div class="row">
 		<span class="italic">
-		<div class="collaborators span8 last">Marcus Camby, Joel Anthony</div>
+		<div class="collaborators span8 last"><?=$listing['collaborators']?></div>
 		</span>
 	</div>
 	<div class="row">
@@ -95,7 +107,7 @@ foreach($listings as $listing) {
 		</div>
 	</div>
 	<div class="row">
-		<div class="timeline span8 last"><span class="bold">Timeline: </span>May 2012-July 2012</div>
+		<div class="timeline span8 last"><span class="bold">Timeline: </span><?=$listing['timeframe'];?></div>
 		<a id="readmore" class="span8 last" href="">Learn more...</a>
 	</div>
 </div>
