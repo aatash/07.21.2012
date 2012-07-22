@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('meekrodb.2.0.class.php');
 DB::$user = 'projectwing';
 DB::$password = 'Hello123!';
