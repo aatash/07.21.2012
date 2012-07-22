@@ -71,7 +71,7 @@ legend.form-title {
 
 #sidebar {
 	margin-left:40px;
-	margin-top:30px;
+	margin-top:0px;
 	padding:15px;
 }
 
@@ -181,6 +181,7 @@ legend.form-title {
 	margin-top:10px;
 }
 
+<<<<<<< HEAD
 .main {
 	padding:20px;
 }
@@ -215,6 +216,12 @@ legend.form-title {
 	line-height: 110%;
 }
 
+
+.pagination {
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
 
 /* TAGS INPUT */
 
