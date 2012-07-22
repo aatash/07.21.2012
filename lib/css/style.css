@@ -53,6 +53,12 @@ legend.form-title {
 	padding-bottom:15px;
 }
 
+#content-front {
+	background-color:#EDEDED;
+	padding-top:15px;
+	padding-bottom:0px;
+}
+
 .logo h1 {
 	margin-top:15px;
 	margin-bottom:15px;
@@ -204,11 +210,14 @@ legend.form-title {
 }
 
 #needhalp {
-	padding:30px;
+	background-image:url('../img/bg2.jpg');
+	margin:0;
+	padding-top: 10px;
+	height:460px;
 }
 
 #needhalp p {
-	padding:0px;
+	padding-top:10px;
 	font-size:30px;
 	margin:0;
 	margin-top: 5px;
