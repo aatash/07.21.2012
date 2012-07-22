@@ -95,33 +95,33 @@
 
   <div class="row">
     <div class="span8 offset2">
-       <form class="form-horizontal">
+       <form class="form-horizontal" action="createproject.php" method="post">
         <fieldset>
           <legend>Create a Project</legend>
 
           <div class="control-group">
             <label class="control-label" for="name">Project Title</label>
             <div class="controls">
-              <input type="text" class="input-xlarge" id="name">
+              <input type="text" class="input-xlarge" id="name" name="projecttitle">
             </div>
           </div>
           <div class="control-group">
             <label class="control-label" for="type">Type</label>
             <div class="controls">
-              <input name="tags" id="tags" value="nonprofit" />
+              <input name="type" id="tags" value="nonprofit" />
             </div>
           </div>
           <div class="control-group">
             <label class="control-label" for="skills">Skills Required</label>
             <div class="controls">
-              <input name="tags" id="tags2" value="Ruby on Rails, Javascript" />
+              <input name="skills" id="tags2" value="Ruby on Rails, Javascript" />
             </div>
           </div>
           <div class="control-group">
             <label class="control-label" for="optionsCheckbox">Public/Private</label>
             <div class="controls">
               <label class="checkbox">
-                <input type="checkbox" id="optionsCheckbox" value="private">
+                <input type="checkbox" id="optionsCheckbox" value="private" name="private">
                 Check the box if you want to make the project private
               </label>
             </div>
@@ -130,13 +130,13 @@
           <div class="control-group">
             <label class="control-label" for="fileInput">Attached files</label>
             <div class="controls">
-              <input class="input-file" id="fileInput" type="file">
+              <input class="input-file" id="fileInput" type="file" name="file">
             </div>
           </div>
           <div class="control-group">
             <label class="control-label" for="description">Description</label>
             <div class="controls">
-              <textarea class="input-xlarge" id="description" rows="3"></textarea>
+              <textarea class="input-xlarge" id="description" rows="3" name="description"></textarea>
             </div>
           </div>
           <div class="form-actions">
