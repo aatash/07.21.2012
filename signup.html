@@ -46,21 +46,32 @@
     </div>
 
 	<div id="page">
-	<form class="form-horizontal">
+	<form class="form-horizontal" action="register.php" method="post">
   <fieldset>
     <legend>Sign up</legend>
     <div class="span4">
       <div class="control-group">
         <label class="control-label" for="input01">Username</label>
           <div class="controls">
-            <input type="text" class="input-xlarge" id="input01">
+            <input type="text" class="input-xlarge" id="input01" name="username">
           </div>
       </div>
       <div class="control-group">
-
         <label class="control-label" for="input01">Password</label>
           <div class="controls">
-            <input type="text" class="input-xlarge" id="input01">
+            <input type="password" class="input-xlarge" id="input01" name="password">
+          </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01">Full name</label>
+          <div class="controls">
+            <input type="text" class="input-xlarge" id="input01" name="realname">
+          </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01">About me</label>
+          <div class="controls">
+            <textarea type="password" class="input-xlarge" id="input01" name="about"></textarea>
           </div>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
